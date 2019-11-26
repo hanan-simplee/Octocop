@@ -12,7 +12,7 @@ else
   gem install rubocop -v "${INPUT_RUBOCOP_VERSION}"
 fi
 
-gem install -N rubocop-rails rubocop-performance rubocop-rspec rubocop-i18n rubocop-rake
+# gem install -N rubocop-rails rubocop-performance rubocop-rspec rubocop-i18n rubocop-rake
 
 if [ -n "${INPUT_ADDITIONAL_GEMS}" ]; then
   eval "gem install ${INPUT_ADDITIONAL_GEMS}"
